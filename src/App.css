@@ -1,28 +1,37 @@
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  background-color:rgb(49, 49, 50);
 }
 
 a {
-  font-size: 30px;
-  color: rgb(214, 214, 214);
+  font-size: 20px;
+  color: black;
   text-decoration: none;
-  font-weight: 500;
-  padding: 0px 20px;
+  font-weight: 800;
+  margin-left: 30px;
 }
 
 a:hover {
-  color:rgb(252, 249, 249)
+  color:rgb(91, 88, 88);
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: rgb(207, 234, 239);
 }
 
-header {
-  padding: 30px 10%;
+.contact {
+  margin-right: 20px;
+}
+
+.imageIcon {
+ margin-top: 7px;
+ height: 45px;
+ margin-left: auto;
+}
+
+.navLinks {
+  margin: 10px;
 }
