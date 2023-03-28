@@ -58,9 +58,11 @@ const Home = () => {
         </table>
       </div>
     </div>
-    <div className='facebookSection'>
-      <h4>Checkout our Facebook page</h4>
-    <ExampleCuts />
+    <div className='facebookSecBackground'>
+      <div className='facebookSection'>
+        <h4>Checkout our Facebook page</h4>
+        <ExampleCuts />
+      </div>
     </div>
     </>
    )

@@ -1,7 +1,9 @@
+import './Footer.css'
+
 const Footer = () => {
   return ( 
     <footer>
-    <p>This is the Footer Component</p>
+      <p>This is the Footer Component</p>
     </footer>
    )
 }
