@@ -1,13 +1,14 @@
+import Carousel from './Carousel'
 import './Home.css'
 
 const Home = () => {
   return ( 
     <>
-    <div className='homeImages'>
     <img className='insideshop' src="./insidebarbershop.jpg" alt="Inside Area" />
-    {/* <img className='barbershop' src="./barbershop.jpg" alt="Barbershop" />
-    <img className='barberself' src="./barberself.jpg" alt="Barber" /> */}
-    </div>
+    <h1>"One of the best haircuts I have ever had. Super friendly and nice atmosphere."</h1>
+    {/* <img src="./example1.jpg" alt="examplecut1" />
+    <img src="./example2.jpg" alt="examplecut2" /> */}
+    <Carousel />
     </>
    )
 }
