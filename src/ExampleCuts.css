@@ -5,8 +5,13 @@
 
 a {
   max-width:23%;
+  transition: 0.3s ease-in-out;
 }
 
 img {
   width: 100%;
+}
+
+a:hover {
+  opacity: 0.8;
 }
