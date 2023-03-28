@@ -1,0 +1,9 @@
+.examplecuts {
+  display: flex;
+  justify-content: space-around;
+  /* margin-top: 10%; */
+}
+
+.examplecut {
+  max-width:23%;
+}
