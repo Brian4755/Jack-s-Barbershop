@@ -1,4 +1,5 @@
 import Carousel from './Carousel'
+import ExampleCuts from './ExampleCuts'
 import './Home.css'
 
 const Home = () => {
@@ -57,6 +58,7 @@ const Home = () => {
         </table>
       </div>
     </div>
+    <ExampleCuts />
     </>
    )
 }
