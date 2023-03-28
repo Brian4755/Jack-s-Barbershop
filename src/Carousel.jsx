@@ -1,4 +1,5 @@
 import { useCallback, useState, useEffect } from "react";
+import './Carousel.css'
 
 const Carousel = () => {
   const [carousel, setCarousel] = useState(1)
@@ -15,8 +16,8 @@ const Carousel = () => {
   return ( 
     <>
     {carousel === 1 ?
-    <img src="./example1.jpg" alt="examplecut1" /> :
-    <img src="./example2.jpg" alt="examplecut2" />
+    <img className="examples" src="./example1.jpg" alt="examplecut1" /> :
+    <img className="examples" src="./example2.jpg" alt="examplecut2" />
     }
     </>
    )
