@@ -9,7 +9,7 @@ const Carousel = () => {
   }, [carousel])
 
   useEffect(() => {
-    const id = setTimeout(increment, 5000)
+    const id = setTimeout(increment, 4000)
     return () => clearTimeout(id)
   }, [increment])
 

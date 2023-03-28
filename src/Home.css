@@ -1,10 +1,5 @@
-h1 {
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-  font-style: italic;
-  font-size: 28px;
-  font-weight: 800;
-  margin-top: 4%;
+body {
+  background-image: linear-gradient(180deg, white, rgb(228, 225, 225));
 }
 
 .insideshop {
@@ -17,10 +12,27 @@ h1 {
   width: 65%;
   margin-left: auto;
   margin-right: auto;
+  display: grid;  
+  /* grid-template-columns: auto auto auto; */
+  grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  font-size: 28px;
+  font-weight: 800;
+  margin-top: 4%;
+  grid-column: span 2;
 }
 
 .barberself {
   display: block;
   margin-top: 7%;
   margin-left: auto;
+}
+
+.homeSec2Text {
+
 }
