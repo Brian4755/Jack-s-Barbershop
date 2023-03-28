@@ -2,9 +2,8 @@ h1 {
   text-align: center;
 }
 
-.barbershop {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
+.insideshop {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
 }
