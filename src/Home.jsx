@@ -2,6 +2,10 @@ import Carousel from './Carousel'
 import './Home.css'
 
 const Home = () => {
+  function handleClick(e) {
+    e.preventDefault()
+    window.open('https://www.yelp.com/biz/jacks-barber-shop-manor', '_blank')
+  }
   return ( 
     <>
     <img className='insideshop' src="./insidebarbershop.jpg" alt="Inside Area" />
@@ -15,7 +19,7 @@ const Home = () => {
       <div>
         <h2>Love our service?</h2>
         <h3>If you received a haircut and would like to post a review on our Yelp page, we would greatly appreciate it</h3>
-        <button>Yelp Page</button>
+        <button onClick={handleClick}>Yelp Page</button>
       </div>
       <img className='barberself' src="./barberself.jpg" alt="Lead Barber" />
     </div>
