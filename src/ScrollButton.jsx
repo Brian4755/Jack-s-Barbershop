@@ -1,3 +1,7 @@
+import './ScrollButton.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons'
+
 const ScrollButton = () => {
   function handleScrollTop() {
     window.scrollTo({
@@ -8,7 +12,7 @@ const ScrollButton = () => {
 
   return ( 
     <>
-    <button onClick={handleScrollTop}>Up</button>
+    <button id='scrollBtn' className="fab fa-react fa-3x" onClick={handleScrollTop}><FontAwesomeIcon icon={faArrowUp} /></button>
     </>
    )
 }
