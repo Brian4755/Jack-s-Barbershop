@@ -1,7 +1,10 @@
+import './Home.css'
+
 const Home = () => {
   return ( 
     <>
-    <h1>This is the Homepage</h1>
+    <h1>Jack's Barbershop</h1>
+    <img className='barbershop' src="./barbershop.jpg" alt="Barbershop" />
     </>
    )
 }
