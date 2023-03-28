@@ -22,6 +22,7 @@ const Home = () => {
         <button onClick={handleClick}>Yelp Page</button>
       </div>
       <img className='barberself' src="./barberself.jpg" alt="Lead Barber" />
+      <img className='barberStation' src="./barberstations.jpg" alt="Barber Stations" />
     </div>
     </>
    )
