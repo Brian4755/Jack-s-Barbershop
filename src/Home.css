@@ -41,6 +41,7 @@ h1 {
 
 h2 {
   margin-top: 10%;
+  color: rgb(138, 15, 10);
 }
 
 .facebookSection {
@@ -54,4 +55,19 @@ h2 {
   background-color: white;
   display: flex;
   height: 100%;
+}
+
+button {
+  border-radius: 20px;
+  width: 120px;
+  height: 35px;
+  cursor: pointer;
+  background: transparent;
+  border: 3px solid #91C9FF;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #91C9FF;
 }
