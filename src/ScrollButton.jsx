@@ -5,6 +5,7 @@ import { faArrowUp } from '@fortawesome/free-solid-svg-icons'
 
 const ScrollButton = () => {
   const [visible, setVisible] = useState(false)
+  const [inverse, setInverse] = useState(false)
 
   function handleVisibleScroll() {
     const scrolled = document.documentElement.scrollTop
@@ -16,7 +17,18 @@ const ScrollButton = () => {
     }
   }
 
+  function handleInverseVisible() {
+    const scrolled = document.documentElement.scrollTop
+    if (scrolled > 2250){
+      setInverse(true)
+    } 
+    else if (scrolled <= 2250){
+      setInverse(false)
+    }
+  }
+
   window.addEventListener('scroll', handleVisibleScroll)
+  window.addEventListener('scroll', handleInverseVisible)
 
   function handleScrollTop() {
     window.scrollTo({
@@ -28,8 +40,12 @@ const ScrollButton = () => {
   return ( 
     <>
       {
-        visible === true &&
+        visible === true && inverse === false &&
         <button id='scrollBtn' className="fab fa-react fa-3x" onClick={handleScrollTop}><FontAwesomeIcon icon={faArrowUp} /></button>
+      }
+      {
+        visible === true && inverse === true &&
+        <button id='scrollBtnInv' className="fab fa-react fa-3x" onClick={handleScrollTop}><FontAwesomeIcon icon={faArrowUp} /></button>
       }
     </>
    )

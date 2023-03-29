@@ -3,7 +3,10 @@ import './Footer.css'
 const Footer = () => {
   return ( 
     <footer>
-      <p>This is the Footer Component</p>
+      <div className='footerSection'>
+        <p>Jack's Barbershop © 2023</p>
+
+      </div>
     </footer>
    )
 }
