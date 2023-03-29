@@ -3,10 +3,7 @@ import './Footer.css'
 const Footer = () => {
   return ( 
     <footer>
-      <div className='footerSection'>
-        <p>Jack's Barbershop © 2023</p>
-
-      </div>
+        <p>Jack's Barbershop © 2023 <br /> (512) 906-9870 <br />Created and Designed by Brian McCune</p>
     </footer>
    )
 }

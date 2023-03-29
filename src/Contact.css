@@ -1,0 +1,33 @@
+.contactInfo {
+  text-align: center;
+}
+
+.contactUs {
+  font-size: 50px;
+  font-family: 'Kanit', sans-serif;
+  margin-top: 5%;
+}
+
+.contactIcon {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.facebookIcon {
+  width: 50px;
+  margin-top: 5px;
+}
+
+.contactDetails {
+  width: 30%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.contactDetails p {
+  align-self: center;
+}

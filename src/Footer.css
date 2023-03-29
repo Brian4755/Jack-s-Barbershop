@@ -1,16 +1,16 @@
 footer {
-  margin-bottom: 0;
   background-color: black;
   color: white;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.footerSection {
-  /* margin-bottom: 5%; */
-}
-
 p {
   margin-bottom: 0;
   margin-top: 0;
-  padding: 5%;
+  padding: 2%;
+}
+
+.facebookContact {
+  display: flex;
+  justify-content: center;
 }
