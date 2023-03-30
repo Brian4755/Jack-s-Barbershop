@@ -1,7 +1,6 @@
 import './Contact.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAddressBook } from '@fortawesome/free-solid-svg-icons'
-import { fa9 } from '@fortawesome/free-solid-svg-icons'
 
 const Contact = () => {
   return ( 
