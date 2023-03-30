@@ -6,16 +6,6 @@
   position: fixed;
   left: 50%;
   bottom: 5%;
-}
-
-#scrollBtnInv {
-  border-radius: 50%;
-  max-width: 70px;
-  height: 70px;
-  max-height: 70px;
-  position: fixed;
-  left: 50%;
-  bottom: 5%;
   filter: invert(1);
   mix-blend-mode: difference;
 }
