@@ -1,12 +1,10 @@
 import './About.css'
-import FooterAlt from "./FooterAlt"
 
 const About = () => {
   return ( 
-    <>
+    <div className='aboutPage'>
       <img className="aboutImage" src="./AboutImage.jpg" alt="Barber Shaving Customer" />
-      <FooterAlt />
-    </>
+    </div>
    )
 }
  

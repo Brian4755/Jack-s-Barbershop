@@ -38,3 +38,9 @@ nav {
 .navLinks {
   margin: 10px;
 }
+
+.app {
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 100vh; /* or the minimum height of your content */
+}

@@ -5,11 +5,11 @@ import Home from './Home';
 import Location from './Location';
 import About from './About';
 import Contact from './Contact';
-// import Footer from './Footer';
+import Footer from './Footer';
 
 function App() {
   return (
-    <>
+    <div className='app'>
     <Navbar />
     <Routes>
       <Route path='/' element={<Home />}/>
@@ -17,8 +17,8 @@ function App() {
       <Route path='/about' element={<About />}/>
       <Route path='/contact' element={<Contact />}/>
     </Routes >
-    {/* <Footer /> */}
-    </>
+    <Footer />
+    </div>
   )
 }
 

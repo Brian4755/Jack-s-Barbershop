@@ -1,3 +1,10 @@
 .aboutImage {
   width: 30%;
+  margin-left: 10%;
+  margin-top: 4%;
+}
+
+.aboutPage {
+  /* min-height: 80.8vh; */
+  flex-grow: 1;
 }

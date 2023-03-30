@@ -1,5 +1,7 @@
 .contactInfo {
   text-align: center;
+  /* min-height: 69.97vh; */
+  flex-grow: 1;
 }
 
 .contactUs {
