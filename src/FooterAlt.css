@@ -1,0 +1,15 @@
+.footerAlt {
+  background-color: black;
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+p {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 2%;
+}

@@ -1,6 +1,7 @@
 import './Contact.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAddressBook } from '@fortawesome/free-solid-svg-icons'
+import FooterAlt from './FooterAlt'
 
 const Contact = () => {
   return ( 
@@ -17,6 +18,7 @@ const Contact = () => {
       <img className='facebookIcon' src="./facebookIcon.png" alt="Facebook Icon" />
       </a></p>
       </div>
+      <FooterAlt />
     </div>
    )
 }

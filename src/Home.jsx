@@ -3,6 +3,7 @@ import ExampleCuts from './ExampleCuts'
 import Hours from './Hours'
 import './Home.css'
 import ScrollButton from './ScrollButton'
+import Footer from './Footer'
 
 const Home = () => {
   function handleClick(e) {
@@ -35,6 +36,7 @@ const Home = () => {
         </div>
       </div>
       <ScrollButton />
+      <Footer />
     </>
    )
 }
