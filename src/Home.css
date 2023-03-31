@@ -88,7 +88,8 @@ button:hover {
     width: 90%;
   }
   .barberself {
-    margin-top: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
   }
   .barberStation {
     display: none;

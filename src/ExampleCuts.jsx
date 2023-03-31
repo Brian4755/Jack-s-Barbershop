@@ -2,7 +2,7 @@ import './ExampleCuts.css'
 
 const ExampleCuts = () => {
   return ( 
-    <div className="examplecuts">
+    <div className="exampleCuts">
       <a target='_blank' rel='noreferrer' href="https://www.facebook.com/people/Jacks-Barber-Shop/100057022047131/">
         <img className='examplecut' src="./cutexample1.jpg" alt="Example Cut" />
       </a>

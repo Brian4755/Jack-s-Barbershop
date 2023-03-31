@@ -1,9 +1,9 @@
-.examplecuts {
+.exampleCuts {
   display: flex;
   justify-content: space-around;
 }
 
-a {
+.exampleCuts a {
   max-width:23%;
   transition: 0.3s ease-in-out;
   margin-left: 0;
