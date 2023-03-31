@@ -2,16 +2,19 @@
   width: 30%;
   height: 30%;
   margin-left: 10%;
-  margin-top: 4%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .aboutPage {
-  flex-grow: 1;
   display: flex;
+  flex-grow: 1;
 }
 
 .aboutUsText {
-  margin-top: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: justify;
 }
 
 .aboutUsDetails {
@@ -19,4 +22,20 @@
   width: 75%;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutPage {
+    display: inline-block;
+  }
+  .aboutImage {
+    margin-top: 10%;
+    width: 80%;
+  }
+  .aboutUsTitle {
+    padding-bottom: 0;
+  }
+  .aboutUsText {
+    margin-top: 0%;
+  }
 }
