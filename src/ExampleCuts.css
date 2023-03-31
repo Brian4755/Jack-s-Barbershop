@@ -6,6 +6,7 @@
 a {
   max-width:23%;
   transition: 0.3s ease-in-out;
+  margin-left: 0;
 }
 
 img {
@@ -18,6 +19,12 @@ a:hover {
 
 @media only screen and (max-width: 1200px) {
   a {
-    max-width: 19%;
+    max-width: 24%;
+  }
+  .example4 {
+    display: none;
+  }
+  .examplecuts {
+    margin-left: 0;
   }
 }

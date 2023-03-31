@@ -11,11 +11,11 @@ const ExampleCuts = () => {
         <img className='examplecut' src="./cutexample2.jpg" alt="Example Cut" />
       </a>
 
-      <a target='_blank' rel='noreferrer' href="https://www.facebook.com/people/Jacks-Barber-Shop/100057022047131/">
+      <a className='example3' target='_blank' rel='noreferrer' href="https://www.facebook.com/people/Jacks-Barber-Shop/100057022047131/">
         <img className='examplecut' src="./cutexample3.jpg" alt="Example Cut" />
       </a>
 
-      <a target='_blank' rel='noreferrer' href="https://www.facebook.com/people/Jacks-Barber-Shop/100057022047131/">
+      <a className='example4' target='_blank' rel='noreferrer' href="https://www.facebook.com/people/Jacks-Barber-Shop/100057022047131/">
        <img className='examplecut' src="./cutexample4.jpg" alt="Example Cut" />
       </a>
     </div>

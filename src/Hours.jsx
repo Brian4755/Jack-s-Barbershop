@@ -1,7 +1,7 @@
 const Hours = () => {
   return ( 
-    <div>
-        <h2>Hours of Operation:</h2>
+    <div className="hoursTable">
+        <h2 className="hoursTitle">Hours of Operation:</h2>
         <table>
           <tbody>
             <tr>

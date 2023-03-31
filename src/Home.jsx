@@ -19,7 +19,7 @@ const Home = () => {
           <h2>Manor Texas family owned barbershop bordering Austin</h2>
           <h3>We offer fades, tapers, buzz cuts and many other popular styles.</h3>
         </div>
-        <div>
+        <div className='reviewText'>
           <h2>Love our service?</h2>
           <h3>If you received a haircut and would like to post a review on our Yelp page, we would greatly appreciate it</h3>
           <button onClick={handleClick}>Yelp Page</button>
