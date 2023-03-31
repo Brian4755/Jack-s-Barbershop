@@ -33,3 +33,13 @@
 .contactDetails p {
   align-self: center;
 }
+
+@media only screen and (max-width: 1200px) {
+  .contactUs {
+    margin-top: 20%;
+  }
+  .contactDetails {
+    width: 70%;
+    margin-top: 20%;
+  }
+}
