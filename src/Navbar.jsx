@@ -5,6 +5,7 @@ const Navbar = () => {
   return ( 
     <nav>
       <Link to='/'><img className="imageIcon" src="./homepagebutton.png" alt="Jack's Barbershop"/></Link>
+      <Link to='/'><img className="mobileIcon" src="./mobileHome.png" alt="Jack's Barbershop"/></Link>
       <div className="navLinks">
       <Link className="location" to='/location'>Location</Link>
       <Link className="about" to='/about'>About</Link>

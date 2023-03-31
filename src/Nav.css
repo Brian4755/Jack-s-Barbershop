@@ -1,3 +1,22 @@
 .imageIcon {
   min-width: 200px;
 }
+.mobileIcon {
+  width: 20%;
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  height: 20px;
+  width: 20px;
+  margin-left: auto;
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .mobileIcon {
+    display: inline;
+  }
+  .imageIcon {
+    display: none;
+  }
+}
