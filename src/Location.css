@@ -6,9 +6,18 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 95% !important;
 }
 
 .address {
   margin-top: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+  .googleMap {
+    width: 95% !important;
+  }
+  .address {
+    margin-top: 20%;
+    padding-bottom: 5%;
+  }
 }
